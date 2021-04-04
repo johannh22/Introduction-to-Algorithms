@@ -3,13 +3,13 @@
 
 template <typename T>
 
-int linear_search(std::vector<T> a, T v){
+T linear_search(std::vector<T> a, T v){
     for (int i = 0; i < a.size(); i++){
         if (a[i] == v){
             return i;
         }
     }
-    return -1;
+    return NIL;
 }
 
 int main(){
