@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 
 void merge(int A[], int p, int q, int r){
     int n1 = q - p + 1; // Size of the first subarray (A[p..q])
