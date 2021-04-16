@@ -28,12 +28,10 @@ void build_max_heap(int A[], int n){
 }
 
 void print_array(int A[], int n){
-    std::cout << "Began printing:" << std::endl;
-
     for (int i = 0; i < n; i ++)
-        std::cout << A[i] << std::endl;
+        std::cout << A[i] << " ";
     
-    std::cout << "Ended printing" << std::endl;
+    std::cout << std::endl;
 }
 
 int main(){
